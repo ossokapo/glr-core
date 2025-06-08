@@ -1,0 +1,42 @@
+# Build and binary folders
+/build/
+/bin/
+/lib/
+/obj/
+/out/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE and system files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.user
+*.workspace
+*.orig
+
+# Test outputs
+/test-results/
+/*.test
+
+# Wallet files
+*.keys
+*.address.txt
+*.log
+
+# Ignore compiled object files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
